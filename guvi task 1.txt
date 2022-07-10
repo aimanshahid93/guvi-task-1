@@ -1,0 +1,37 @@
+Q)write a blog on differences between http 1.1 vs http2
+Ans)Http stands for Hyper Text Transfer Protocol.It is the baseline for all web applications.Http is basically a set of rules or
+or a protocal used by computers and servers to transfer information,for example if someone navigates and searches google.com on their
+web browser then the Http request is send from the browser to the server requesting them for the corresponding web page.
+           The first version of Http was created in !997 and as it went under many development stages it is referred to as Http1.1.
+However,it had shortcomings which were overcome by Http2 which was invented in 2015 as it was faster and more efficient.
+The  differences between Http 1.1 and Http2 are as follows:-                                      
+1)Http1.1  works on textual format whereas Http2 works on binary format.
+2)Http1.1 has a head of line blocking that blocks all the requests behind it until it doesn't get its resources.Whereas Http2 allows multiplexing so one tcp 
+connection is required for multiple requests.
+3)Http1.1 uses requests resource Inlining for getting multiple pages.Whereas Http2 uses PUSH frame by server that collects multiple pages.
+4)Http1.1 compresses data by itself whereas Http2 compresses data using HPACK compression.
+
+
+Q)Write a blog on objects and its internal representation.
+Ans)An Object in javascript is a combination of primitive as well as non primitive data types.It is a reference datatype.Variables that are assigned a reference value are given a refernce pointer to that value.That reference or pointer points to the loction in the memory where the object is stored.
+Objects in Javascript maybe defined as an unordered collection of related data,of primitive or reference types,in the form of"key:value"pairs.These keys can be variables or functions and are called properties and methods,respectively in the context of an object.
+In javascript,an object is a standalone entity,with properties and type.Compare it with a cup for example,a cup has colour,design,weight and material.The same way Javascript objects can have properties which define their characteristics.
+Creating Objects in JS:-
+1)By Object Literal
+syntax:-
+object={property1:value1,property2:value2........propertyN:N}
+example:-
+let person={name:xxx,age:yyy,sex:zzz}
+2)By Creating instance of object
+syntax:-
+var objectname=new Object();
+Example:-
+Var emp=new object();
+emp.id=101;
+emp.name="XXX";
+emp.salary=50000;
+
+Accessing Objects in Javascripts:-
+Objectname.Property
+or
+ObjectName["property"]
